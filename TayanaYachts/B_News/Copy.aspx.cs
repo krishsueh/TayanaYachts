@@ -1,0 +1,476 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Data.SqlClient;
+using System.IO;
+using System.Linq;
+using System.Web;
+using System.Web.Configuration;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace TayanaYachts.B_News
+{
+    public partial class Copy : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            if (!IsPostBack)
+            {
+                LoadCoverAndSummary();
+                LoadCkeditor();
+                LoadUploadedImg();
+                LoadUploadedFile();
+
+                if (CheckBoxList1.Items.Count == 0)
+                {
+                    AttachedImg.Visible = false;
+                }
+                if (CheckBoxList2.Items.Count == 0)
+                {
+                    AttachedFile.Visible = false;
+                }
+            }
+
+            cover_warning.Text = "";
+            lbl_UpdatedSummary.Text = "";
+            lbl_Updated.Text = "";
+            img_warning.Text = "";
+            file_warning.Text = "";
+        }
+
+        private void LoadCoverAndSummary()
+        {
+
+            SqlConnection cnn = new SqlConnection(WebConfigurationManager.ConnectionStrings["TayanaYachtsConnectionString"].ConnectionString);
+            string sql = "SELECT ISNULL(coverImg, 'noImg') AS coverImg, summary FROM news WHERE id = @id";
+            SqlCommand cmd = new SqlCommand(sql, cnn);
+
+            cmd.Parameters.AddWithValue("@id", Request.QueryString["id"]);
+
+            cnn.Open();
+            SqlDataReader reader = cmd.ExecuteReader();
+            if (reader.Read())
+            {
+                if (reader["coverImg"].ToString() == "noImg")
+                {
+                    CoverPath.Visible = true;
+                }
+                else
+                {
+                    CoverPath.ImageUrl = "~/upload/News/" + Request.QueryString["id"] + "/" + reader["coverImg"].ToString();
+                }
+                tbx_Summary.Text = reader["summary"].ToString();
+            }
+            cnn.Close();
+        }
+
+        protected void btn_UploadCover_Click(object sender, EventArgs e)
+        {
+            string folderName = @"C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\upload\News\";
+            string savePath = folderName + Request.QueryString["id"] + "\\";
+
+            string FinalName;
+            if (CoverUpload.HasFile)
+            {
+                string fileName = CoverUpload.FileName;
+
+                string extension = System.IO.Path.GetExtension(fileName);
+
+                if (extension == ".jpg" || extension == ".jpeg" || extension == ".png" || extension == ".gif")
+                {
+                    //檢查檔名衝突
+                    string PathToCheck = savePath + fileName;
+                    string TempFileName = "";
+
+                    if (File.Exists(PathToCheck))
+                    {
+                        int count = 2;
+                        while (File.Exists(PathToCheck))
+                        {
+                            string[] FileNameSpilt = fileName.Split('.');
+                            TempFileName = FileNameSpilt[0] + "(" + count.ToString() + ")." + FileNameSpilt[1];
+                            PathToCheck = savePath + TempFileName;
+                            count++;
+                        }
+                    }
+
+                    CoverUpload.SaveAs(PathToCheck);
+
+                    if (TempFileName != "")
+                    {
+                        FinalName = TempFileName;
+                    }
+                    else
+                    {
+                        FinalName = fileName;
+                    }
+
+                    SqlConnection cnn = new SqlConnection(WebConfigurationManager.ConnectionStrings["TayanaYachtsConnectionString"].ConnectionString);
+                    string sql = "UPDATE news SET coverImg = @coverImg WHERE id = @id";
+                    SqlCommand cmd = new SqlCommand(sql, cnn);
+
+                    cmd.Parameters.AddWithValue("@coverImg", FinalName);
+                    cmd.Parameters.AddWithValue("@id", Request.QueryString["id"]);
+
+                    cnn.Open();
+                    cmd.ExecuteNonQuery();
+                    cnn.Close();
+                    LoadCoverAndSummary();
+
+                }
+                else
+                {
+                    cover_warning.Text = "存在格式不符合的檔案";
+                }
+            }
+            else
+            {
+                cover_warning.Text = "未選擇檔案，請重新上傳";
+            }
+        }
+
+        protected void btn_UploadSummary_Click(object sender, EventArgs e)
+        {
+            SqlConnection cnn = new SqlConnection(WebConfigurationManager.ConnectionStrings["TayanaYachtsConnectionString"].ConnectionString);
+            string sql = "UPDATE news SET summary = @summary WHERE id = @id";
+            SqlCommand cmd = new SqlCommand(sql, cnn);
+
+            cmd.Parameters.AddWithValue("@id", Request.QueryString["id"]);
+
+            cmd.Parameters.AddWithValue("@summary", tbx_Summary.Text);
+
+            cnn.Open();
+            cmd.ExecuteNonQuery();
+            cnn.Close();
+
+            LoadCoverAndSummary();
+            lbl_UpdatedSummary.Text = "存檔成功!";
+        }
+
+        private void LoadCkeditor()
+        {
+            SqlConnection cnn = new SqlConnection(WebConfigurationManager.ConnectionStrings["TayanaYachtsConnectionString"].ConnectionString);
+            string sql = "SELECT NewsHtml FROM news WHERE id = @id";
+            SqlCommand cmd = new SqlCommand(sql, cnn);
+
+            cmd.Parameters.AddWithValue("@id", Request.QueryString["id"]);
+
+            cnn.Open();
+            SqlDataReader reader = cmd.ExecuteReader();
+            if (reader.Read())
+            {
+                CKEditorControl1.Text = HttpUtility.HtmlDecode(reader["NewsHtml"].ToString());
+            }
+            cnn.Close();
+        }
+
+        protected void btn_UploadNews_Click(object sender, EventArgs e)
+        {
+            if (CKEditorControl1.Text != "")
+            {
+                SqlConnection cnn = new SqlConnection(WebConfigurationManager.ConnectionStrings["TayanaYachtsConnectionString"].ConnectionString);
+                string sql = "UPDATE news SET newsHtml = @newsHtml WHERE id = @id";
+                SqlCommand cmd = new SqlCommand(sql, cnn);
+
+                cmd.Parameters.AddWithValue("@id", Request.QueryString["id"]);
+
+                cmd.Parameters.AddWithValue("@newsHtml", HttpUtility.HtmlEncode(CKEditorControl1.Text));
+                //cmd.Parameters.AddWithValue("@UpdateTime", DateTime.Now);
+
+                cnn.Open();
+                cmd.ExecuteNonQuery();
+                cnn.Close();
+
+                LoadCkeditor();
+                lbl_Updated.Text = "存檔成功!";
+            }
+            else
+            {
+                lbl_Updated.Text = "內文必填!";
+            }
+
+        }
+
+        private void LoadUploadedImg()
+        {
+            CheckBoxList1.Items.Clear(); //無條件先清空CheckBoxList1後再渲染
+            SqlConnection cnn = new SqlConnection(WebConfigurationManager.ConnectionStrings["TayanaYachtsConnectionString"].ConnectionString);
+            string sql = "SELECT * FROM newsImg WHERE id = @id";
+            SqlCommand cmd = new SqlCommand(sql, cnn);
+
+            cmd.Parameters.AddWithValue("@id", Request.QueryString["id"]);
+
+            cnn.Open();
+            SqlDataReader reader = cmd.ExecuteReader();
+            while (reader.Read())
+            {
+                ListItem listItem = new ListItem();
+                listItem.Text = string.Format($"<img width='100' src='../upload/News/{Request.QueryString["id"]}/{reader["ImgFileName"]}' />");
+                listItem.Value = reader["ImgID"].ToString();
+                CheckBoxList1.Items.Add(listItem);
+            }
+            cnn.Close();
+        }
+
+        protected void btn_ImgUpload_Click(object sender, EventArgs e)
+        {
+            string folderName = @"C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\upload\News\";
+            string savePath = folderName + Request.QueryString["id"] + "\\";
+
+            string FinalName;
+            if (ImgUpload.HasFile)
+            {
+                foreach (HttpPostedFile postedFile in ImgUpload.PostedFiles)
+                {
+                    string fileName = postedFile.FileName;
+
+                    string extension = System.IO.Path.GetExtension(fileName);
+
+                    if (extension == ".jpg" || extension == ".jpeg" || extension == ".png" || extension == ".gif")
+                    {
+                        //檢查檔名衝突
+                        string PathToCheck = savePath + fileName;
+                        string TempFileName = "";
+
+                        if (File.Exists(PathToCheck))
+                        {
+                            int count = 2;
+                            while (File.Exists(PathToCheck))
+                            {
+                                string[] FileNameSpilt = fileName.Split('.');
+                                TempFileName = FileNameSpilt[0] + "(" + count.ToString() + ")." + FileNameSpilt[1];
+                                PathToCheck = savePath + TempFileName;
+                                count++;
+                            }
+                        }
+
+                        postedFile.SaveAs(PathToCheck);
+
+                        if (TempFileName != "")
+                        {
+                            FinalName = TempFileName;
+                        }
+                        else
+                        {
+                            FinalName = fileName;
+                        }
+
+                        SqlConnection cnn = new SqlConnection(WebConfigurationManager.ConnectionStrings["TayanaYachtsConnectionString"].ConnectionString);
+                        string sql = "INSERT INTO newsImg (id, ImgFileName) VALUES  (@newsId, @ImgFileName)";
+                        SqlCommand cmd = new SqlCommand(sql, cnn);
+
+                        cmd.Parameters.AddWithValue("@newsId", Request.QueryString["id"]);
+                        cmd.Parameters.AddWithValue("@ImgFileName", FinalName);
+
+                        cnn.Open();
+                        cmd.ExecuteNonQuery();
+                        cnn.Close();
+                    }
+                    else
+                    {
+                        img_warning.Text = "存在格式不符合的檔案";
+                    }
+                }
+                if (img_warning.Text != "存在格式不符合的檔案")
+                {
+                    Response.Redirect(Request.Url.ToString());
+                }
+            }
+            else
+            {
+                img_warning.Text = "未選擇檔案，請重新上傳";
+            }
+        }
+
+        protected void btn_ImgDelete_Click(object sender, EventArgs e)
+        {
+            //批次刪除勾選的項目
+            foreach (ListItem item in CheckBoxList1.Items)
+            {
+                if (item.Selected)
+                {
+                    string selectedValue = item.Value;
+
+                    //Upload 資料夾刪除
+                    SqlConnection cnn = new SqlConnection(WebConfigurationManager.ConnectionStrings["TayanaYachtsConnectionString"].ConnectionString);
+                    string sql = "SELECT ImgFileName FROM newsImg WHERE (ImgID = @ImgID)";
+                    SqlCommand cmd = new SqlCommand(sql, cnn);
+                    cmd.Parameters.AddWithValue("@ImgID", selectedValue);
+
+                    cnn.Open();
+                    SqlDataReader reader = cmd.ExecuteReader();
+                    if (reader.Read())
+                    {
+                        string savePath = Server.MapPath("~/upload/News/" + Request.QueryString["id"] + "/");
+                        File.Delete(savePath + reader["ImgFileName"].ToString());
+                    }
+                    cnn.Close();
+
+
+                    //資料庫刪除
+                    string sql2 = "DELETE FROM newsImg WHERE (ImgID = @ImgID)";
+                    SqlCommand cmd2 = new SqlCommand(sql2, cnn);
+                    cmd2.Parameters.AddWithValue("@ImgID", selectedValue);
+
+                    cnn.Open();
+                    cmd2.ExecuteNonQuery();
+                    cnn.Close();
+                }
+            }
+            LoadUploadedImg();
+        }
+
+        protected void CheckBoxList1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            btn_ImgDelete.Visible = false;
+            foreach (ListItem item in CheckBoxList1.Items)
+            {
+                if (item.Selected)
+                {
+                    btn_ImgDelete.Visible = true;
+                }
+            }
+        }
+
+        private void LoadUploadedFile()
+        {
+            CheckBoxList2.Items.Clear(); //無條件先清空CheckBoxList1後再渲染
+            SqlConnection cnn = new SqlConnection(WebConfigurationManager.ConnectionStrings["TayanaYachtsConnectionString"].ConnectionString);
+            string sql = "SELECT * FROM newsFile WHERE id = @id";
+            SqlCommand cmd = new SqlCommand(sql, cnn);
+
+            cmd.Parameters.AddWithValue("@id", Request.QueryString["id"]);
+
+            cnn.Open();
+            SqlDataReader reader = cmd.ExecuteReader();
+            while (reader.Read())
+            {
+                ListItem listItem = new ListItem();
+                listItem.Text = $"<a href ='../upload/News/{Request.QueryString["id"]}/{reader["FileName"]}' target='_blank'>{reader["FileName"]}</a>";
+                listItem.Value = reader["FileID"].ToString();
+                CheckBoxList2.Items.Add(listItem);
+            }
+            cnn.Close();
+        }
+
+        protected void btn_FileUpload_Click(object sender, EventArgs e)
+        {
+            string folderName = @"C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\upload\News\";
+            string savePath = folderName + Request.QueryString["id"] + "\\";
+
+            string FinalName;
+            if (FileUpload.HasFile)
+            {
+                foreach (HttpPostedFile postedFile in FileUpload.PostedFiles)
+                {
+                    string fileName = postedFile.FileName;
+
+                    string extension = System.IO.Path.GetExtension(fileName);
+
+                    if (extension == ".pdf" || extension == ".word" || extension == ".txt" || extension == ".rar")
+                    {
+                        //檢查檔名衝突
+                        string PathToCheck = savePath + fileName;
+                        string TempFileName = "";
+
+                        if (File.Exists(PathToCheck))
+                        {
+                            int count = 2;
+                            while (File.Exists(PathToCheck))
+                            {
+                                string[] FileNameSpilt = fileName.Split('.');
+                                TempFileName = FileNameSpilt[0] + "(" + count.ToString() + ")." + FileNameSpilt[1];
+                                PathToCheck = savePath + TempFileName;
+                                count++;
+                            }
+                        }
+
+                        postedFile.SaveAs(PathToCheck);
+
+                        if (TempFileName != "")
+                        {
+                            FinalName = TempFileName;
+                        }
+                        else
+                        {
+                            FinalName = fileName;
+                        }
+
+                        SqlConnection cnn = new SqlConnection(WebConfigurationManager.ConnectionStrings["TayanaYachtsConnectionString"].ConnectionString);
+                        string sql = "INSERT INTO newsFile (id, FileName) VALUES  (@newsId, @FileName)";
+                        SqlCommand cmd = new SqlCommand(sql, cnn);
+
+                        cmd.Parameters.AddWithValue("@newsId", Request.QueryString["id"]);
+                        cmd.Parameters.AddWithValue("@FileName", FinalName);
+
+                        cnn.Open();
+                        cmd.ExecuteNonQuery();
+                        cnn.Close();
+                    }
+                    else
+                    {
+                        file_warning.Text = "存在格式不符合的檔案";
+                    }
+                }
+                if (file_warning.Text != "存在格式不符合的檔案")
+                {
+                    Response.Redirect(Request.Url.ToString());
+                }
+            }
+            else
+            {
+                file_warning.Text = "未選擇檔案，請重新上傳";
+            }
+        }
+
+        protected void btn_FileDelete_Click(object sender, EventArgs e)
+        {
+            //批次刪除勾選的項目
+            foreach (ListItem item in CheckBoxList2.Items)
+            {
+                if (item.Selected)
+                {
+                    string selectedValue = item.Value;
+
+                    //刪除 Upload 資料夾內的附檔
+                    SqlConnection cnn = new SqlConnection(WebConfigurationManager.ConnectionStrings["TayanaYachtsConnectionString"].ConnectionString);
+                    string sql = "SELECT FileName FROM newsFile WHERE (FileID = @FileID)";
+                    SqlCommand cmd = new SqlCommand(sql, cnn);
+                    cmd.Parameters.AddWithValue("@FileID", selectedValue);
+
+                    cnn.Open();
+                    SqlDataReader reader = cmd.ExecuteReader();
+                    if (reader.Read())
+                    {
+                        string savePath = Server.MapPath("~/upload/News/" + Request.QueryString["id"] + "/");
+                        File.Delete(savePath + reader["FileName"].ToString());
+                    }
+                    cnn.Close();
+
+
+                    //從資料庫刪除附檔
+                    string sql2 = "DELETE FROM newsFile WHERE (FileID = @FileID)";
+                    SqlCommand cmd2 = new SqlCommand(sql2, cnn);
+                    cmd2.Parameters.AddWithValue("@FileID", selectedValue);
+
+                    cnn.Open();
+                    cmd2.ExecuteNonQuery();
+                    cnn.Close();
+                }
+            }
+            LoadUploadedFile();
+        }
+
+        protected void CheckBoxList2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            btn_FileDelete.Visible = false;
+            foreach (ListItem item in CheckBoxList2.Items)
+            {
+                if (item.Selected)
+                {
+                    btn_FileDelete.Visible = true;
+                }
+            }
+        }
+    }
+}

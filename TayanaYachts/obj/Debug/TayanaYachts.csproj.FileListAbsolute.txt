@@ -1,0 +1,222 @@
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\TayanaYachts.dll.config
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\TayanaYachts.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\TayanaYachts.pdb
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\csc.exe
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\csc.exe.config
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\csc.rsp
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\csi.exe
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\csi.exe.config
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\csi.rsp
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.AppContext.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Console.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.IO.Compression.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Net.Http.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Net.Sockets.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.ValueTuple.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Xml.XPath.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\vbc.exe
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\vbc.exe.config
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\vbc.rsp
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\VBCSCompiler.exe
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\obj\Debug\TayanaYachts.csproj.CoreCompileInputs.cache
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\obj\Debug\TayanaYachts.csproj.CopyComplete
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\obj\Debug\TayanaYachts.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\obj\Debug\TayanaYachts.pdb
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\CKEditor.NET.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\CKFinder.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\CKFinder.pdb
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\Konscious.Security.Cryptography.Argon2.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\Konscious.Security.Cryptography.Blake2.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\System.Buffers.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\System.Memory.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\System.Numerics.Vectors.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\Konscious.Security.Cryptography.Argon2.xml
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\Konscious.Security.Cryptography.Blake2.xml
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\System.Buffers.xml
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\System.Memory.xml
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\System.Numerics.Vectors.xml
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\TayanaYachts.dll.config
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\TayanaYachts.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\TayanaYachts.pdb
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\csc.exe
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\csc.exe.config
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\csc.rsp
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\csi.exe
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\csi.exe.config
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\csi.rsp
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.AppContext.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Console.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.IO.Compression.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Net.Http.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Net.Sockets.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.ValueTuple.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Xml.XPath.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\vbc.exe
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\vbc.exe.config
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\vbc.rsp
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\VBCSCompiler.exe
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\CKEditor.NET.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\CKFinder.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\Konscious.Security.Cryptography.Argon2.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\Konscious.Security.Cryptography.Blake2.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\System.Buffers.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\System.Memory.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\System.Numerics.Vectors.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\CKFinder.pdb
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\Konscious.Security.Cryptography.Argon2.xml
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\Konscious.Security.Cryptography.Blake2.xml
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\System.Buffers.xml
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\System.Memory.xml
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\System.Numerics.Vectors.xml
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\obj\Debug\TayanaYachts.csproj.AssemblyReference.cache
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\obj\Debug\TayanaYachts.csproj.CoreCompileInputs.cache
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\obj\Debug\TayanaYachts.csproj.CopyComplete
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\obj\Debug\TayanaYachts.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119 YachtsProject\TayanaYachts\TayanaYachts\obj\Debug\TayanaYachts.pdb
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\TayanaYachts.dll.config
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\TayanaYachts.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\TayanaYachts.pdb
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\csc.exe
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\csc.exe.config
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\csc.rsp
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\csi.exe
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\csi.exe.config
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\csi.rsp
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.AppContext.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Console.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.IO.Compression.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Net.Http.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Net.Sockets.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.ValueTuple.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Xml.XPath.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\vbc.exe
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\vbc.exe.config
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\vbc.rsp
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\VBCSCompiler.exe
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\CKEditor.NET.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\CKFinder.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\Konscious.Security.Cryptography.Argon2.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\Konscious.Security.Cryptography.Blake2.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\System.Buffers.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\System.Memory.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\System.Numerics.Vectors.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\CKFinder.pdb
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\Konscious.Security.Cryptography.Argon2.xml
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\Konscious.Security.Cryptography.Blake2.xml
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\System.Buffers.xml
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\System.Memory.xml
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\System.Numerics.Vectors.xml
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\obj\Debug\TayanaYachts.csproj.AssemblyReference.cache
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\obj\Debug\TayanaYachts.csproj.CoreCompileInputs.cache
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\obj\Debug\TayanaYachts.csproj.CopyComplete
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\obj\Debug\TayanaYachts.dll
+C:\Users\KRIS\Desktop\BackEnd\20230119_YachtsProject\TayanaYachts\TayanaYachts\obj\Debug\TayanaYachts.pdb
+C:\Users\KRIS\Desktop\後端課程\20230119 YachtsProject\TayanaYachts\TayanaYachts\obj\Debug\TayanaYachts.csproj.AssemblyReference.cache
