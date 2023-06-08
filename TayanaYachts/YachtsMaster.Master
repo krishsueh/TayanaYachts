@@ -59,7 +59,7 @@
             <div class="menu">
                 <ul>
                     <li class="menuli01"><a href="YachtsOverView.aspx"></a></li>
-                    <li class="menuli02"><a href="news_list.aspx">NEWS</a></li>
+                    <li class="menuli02"><a href="news.aspx">NEWS</a></li>
                     <li class="menuli03"><a href="company.aspx">COMPANY</a></li>
                     <li class="menuli04"><a href="dealers.aspx">DEALERS</a></li>
                     <li class="menuli05"><a href="contact.aspx">CONTACT</a></li>

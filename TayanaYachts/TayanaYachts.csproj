@@ -108,10 +108,8 @@
     <Content Include="B_Index.aspx" />
     <Content Include="B_News\AddNews.aspx" />
     <Content Include="B_News\Copy.aspx" />
-    <Content Include="B_News\X Headline.aspx" />
     <Content Include="B_News\News.aspx" />
     <Content Include="B_News\NewsList.aspx" />
-    <Content Include="B_News\X NewsList.aspx" />
     <Content Include="B_Yachts\AddYachts.aspx" />
     <Content Include="B_Yachts\Yachts.aspx" />
     <Content Include="B_Yachts\YachtsBanner.aspx" />
@@ -2902,13 +2900,6 @@
     <Compile Include="B_News\Copy.aspx.designer.cs">
       <DependentUpon>Copy.aspx</DependentUpon>
     </Compile>
-    <Compile Include="B_News\X Headline.aspx.cs">
-      <DependentUpon>X Headline.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="B_News\X Headline.aspx.designer.cs">
-      <DependentUpon>X Headline.aspx</DependentUpon>
-    </Compile>
     <Compile Include="B_News\News.aspx.cs">
       <DependentUpon>News.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2922,13 +2913,6 @@
     </Compile>
     <Compile Include="B_News\NewsList.aspx.designer.cs">
       <DependentUpon>NewsList.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="B_News\X NewsList.aspx.cs">
-      <DependentUpon>X NewsList.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="B_News\X NewsList.aspx.designer.cs">
-      <DependentUpon>X NewsList.aspx</DependentUpon>
     </Compile>
     <Compile Include="B_Yachts\AddYachts.aspx.cs">
       <DependentUpon>AddYachts.aspx</DependentUpon>
